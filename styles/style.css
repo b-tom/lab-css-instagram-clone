@@ -7,4 +7,93 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: linear-gradient(1800deg, white 65%, #1c5380 60%);
+  background-repeat: no-repeat;
+}
+.mainPage{
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+.iphones{
+  width: 25%;
+  margin-right: 40px;
+}
+.iphones img{
+  max-width: 100%;
+}
+.mainContent{
+  width:50%;
+  margin-bottom: 25px;
+}
+.logoHome{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.logoHome img{
+  width:50%;
+}
+.logoHome button{
+  width:100px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: bold;
+  color: white;
+  background-color: #1c5380;
+}
+.logoHome button img{
+  width: 25px;
+}
+.centerText{
+  background-color: white;
+  background-image: url(images/frame.png);
+  justify-content: flex-start;
+  padding: 0px 25px;
+  overflow: auto;
+  height: 20em;
+  border-radius: 5px;
+}
+.centerText h2{
+  font-size: 1.3em;
+  color: #06365f;
+  margin: 5px;
+  padding-top: 10px;
+}
+.centerText p{
+  font-size: small;
+  margin: 5px;
+  padding: 5px;
+  color: grey;
+  font-weight: bolder;
+}
+.centerText img{
+  width: 120px;
+  height: 38px;
+  padding: 5px;
+}
+.navBar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navBar ul{
+  list-style: none;
+  display: flex;
+  margin-right: 5px;
+}
+.navBar a{
+  font-weight: bold;
+  font-size: 0.7em;
+  margin: 8px;
+  color: #72A2C7;
+  text-decoration: none;
+}
+.navBar p{
+  font-weight: bold;
+  font-size: 0.7em;
+  color:grey
 }
